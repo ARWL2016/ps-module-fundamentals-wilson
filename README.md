@@ -5,7 +5,7 @@ https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=
 - Pluralsight  
 - Brice Wilson   
  
-
+---
 ####Javascript Modules
 1. IIFE (js/app.js)  
 2. Revealing Module Pattern - singleton  
@@ -21,6 +21,7 @@ https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=
 `};`  
 `var newModule = new Module()` 
 
+---
 ####http-server 
 - a lightweight zero-configuration server  
 - install locally, add 'http-server' to the start script and run `npm start` 
