@@ -1,27 +1,34 @@
-// Revealing Module - Singleton
-// variable do not need to be returned
+//CommonJS
 
-var player = function() {
+// private members
+var playerName = '';
 
-    var playerName = ''; 
+function logPlayer() {
+    console.log('The current player is ' + playerName + '.');
+}
 
-    function logPlayer() {
-        console.log('The current player is ' + playerName);
-    }
+function setName(newName) {
+    playerName = newName;
+}
 
-    function setName(newName) {
-        playerName = newName; 
-    }
+function getName() {
+    return playerName;
+}
 
-    function getName() {
-        return playerName; 
-    }
 
-    return {
-        logPlayer: logPlayer, 
-        setName: setName, 
-        getName: getName
-    };
 
-}(); 
+module.exports = {
+    logPlayer: logPlayer,
+    setName: setName,
+    getName: getName
+}
+
+//equivalent to: 
+    
+// exports.logPlayer = logPlayer; 
+// exports.setName = setName; 
+// exports.getName = getName; 
+
+
+
 

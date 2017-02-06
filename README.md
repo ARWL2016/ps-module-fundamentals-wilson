@@ -2,6 +2,9 @@
 
 https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=brice-wilson&name=javascript-module-fundamentals-m2&clip=2&mode=live 
 
+http://requirejs.org/docs/api.html#data-main 
+https://github.com/systemjs/systemjs 
+
 - Pluralsight  
 - Brice Wilson   
  
