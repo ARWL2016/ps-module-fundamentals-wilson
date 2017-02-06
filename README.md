@@ -6,19 +6,22 @@ https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=
 - Brice Wilson   
  
 
-**Javascript Modules**
+####Javascript Modules
 1. IIFE (js/app.js)  
-2. Revealing Module Pattern - singleton   
+2. Revealing Module Pattern - singleton  
+
 `var module = function() {`  
 `return {}`   
 `}();`  
+
 3. Revealing Module Pattern - constructor 
+
 `var Module = function () {`  
 `return {}`  
 `};`  
 `var newModule = new Module()` 
 
-**http-server** 
+####http-server 
 - a lightweight zero-configuration server  
 - install locally, add 'http-server' to the start script and run `npm start` 
 - can also be installed globally 
