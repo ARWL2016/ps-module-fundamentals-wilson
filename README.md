@@ -1,5 +1,7 @@
 ###Javascript Module Fundamentals 
 
+https://github.com/ARWL2016/ps-module-fundamentals-wilson  
+
 https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=brice-wilson&name=javascript-module-fundamentals-m2&clip=2&mode=live 
 
 http://requirejs.org/docs/api.html#data-main 
@@ -10,23 +12,23 @@ https://github.com/systemjs/systemjs
  
 ---
 ####Javascript Modules
-1. IIFE  
-2. Revealing Module Pattern - singleton  
+- IIFE  
+- Revealing Module Pattern - singleton  
 
 `var module = function() {`  
 `return {}`   
 `}();`  
 
-3. Revealing Module Pattern - constructor 
+- Revealing Module Pattern - constructor 
 
 `var Module = function () {`  
 `return {}`  
 `};`  
 `var newModule = new Module()`  
 
-4. AMD (with Require.js loader)  
-5. CommonJS (with System.js loader)  
-6. ES6 modules  
+- AMD (with Require.js loader)  
+- CommonJS (with System.js loader)  
+- ES6 modules  
 
 ####Notes  
 - According to Cory House, IIFE and AMD should no longer be considered for new development
