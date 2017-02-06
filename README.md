@@ -10,7 +10,15 @@ https://github.com/systemjs/systemjs
 - Pluralsight  
 - Brice Wilson   
  
----
+####Technology  
+- CommonJS 
+- ES6 modules  
+- Require.js  
+- System.js  
+- Webpack  
+- Browserify  
+
+
 ####Javascript Modules
 - IIFE  
 - Revealing Module Pattern - singleton  
@@ -35,7 +43,7 @@ https://github.com/systemjs/systemjs
 - CommonJS was popularised by Node  
 - ES6 should be first choice today for front end development  
 
----
+
 ####http-server 
 - a lightweight zero-configuration server  
 - install locally, add 'http-server' to the start script and run `npm start` 
