@@ -10,7 +10,7 @@ https://github.com/systemjs/systemjs
  
 ---
 ####Javascript Modules
-1. IIFE (js/app.js)  
+1. IIFE  
 2. Revealing Module Pattern - singleton  
 
 `var module = function() {`  
