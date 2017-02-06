@@ -7,6 +7,7 @@ https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=
 - Brice Wilson   
  
 ####Technology  
+- Http-server https://www.npmjs.com/package/http-server  
 - CommonJS 
 - ES6 modules  
 - Require.js http://requirejs.org/docs/api.html#data-main    
