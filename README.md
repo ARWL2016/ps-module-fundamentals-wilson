@@ -22,7 +22,16 @@ https://github.com/systemjs/systemjs
 `var Module = function () {`  
 `return {}`  
 `};`  
-`var newModule = new Module()` 
+`var newModule = new Module()`  
+
+4. AMD (with Require.js loader)  
+5. CommonJS (with System.js loader)  
+6. ES6 modules  
+
+####Notes  
+- According to Cory House, IIFE and AMD should no longer be considered for new development
+- CommonJS was popularised by Node  
+- ES6 should be first choice today for front end development  
 
 ---
 ####http-server 
