@@ -1,33 +1,20 @@
-//CommonJS
+//ES6 module
 
-// private members
 var playerName = '';
 
-function logPlayer() {
+export function logPlayer() {
     console.log('The current player is ' + playerName + '.');
 }
 
-function setName(newName) {
+export default function setName(newName) {
     playerName = newName;
 }
 
-function getName() {
+export function getName() {
     return playerName;
 }
 
 
-
-module.exports = {
-    logPlayer: logPlayer,
-    setName: setName,
-    getName: getName
-}
-
-//equivalent to: 
-    
-// exports.logPlayer = logPlayer; 
-// exports.setName = setName; 
-// exports.getName = getName; 
 
 
 

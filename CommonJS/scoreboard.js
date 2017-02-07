@@ -1,7 +1,8 @@
-//ES6 module
+
 
 console.log('Creating a scoreboard...');
 
+// private members
 var results = []; // array to store result of every game
 
 function addResult(newResult) {
@@ -27,5 +28,7 @@ function updateScoreboard() {
 
 // return public members
 
-
-export {addResult, updateScoreboard};
+module.exports = {
+    addResult: addResult,
+    updateScoreboard: updateScoreboard
+}
