@@ -1,7 +1,7 @@
 var player = require('./player.js');
 var game = require('./game.js'); 
   
-console.log('Starting Multimath with SystemJS'); 
+console.log('Bundled with Webpack and built with babel loader'); 
 
 // add click handler to the start game button
 document.getElementById('startGame').addEventListener('click', function() {
