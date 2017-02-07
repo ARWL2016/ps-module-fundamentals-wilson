@@ -61,6 +61,12 @@ https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=
 - CommonJS was popularised by Node  
 - ES6 should be first choice today for front end development  
 
+####Webpack with Babel
+- this requires modules to be transpiled before bundling  
+- install `babel-loader` and `babel-core`  
+- create a `webpack.config` file  
+- ERROR: `Module build failed: Error: Couldn't find preset "es2015" relative to directory` - Windows issue?
+
 
 ####http-server 
 - a lightweight zero-configuration server  

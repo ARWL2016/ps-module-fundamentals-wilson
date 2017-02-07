@@ -1,17 +1,19 @@
 module.exports = {
-  entry: './es6/app.js', 
+  entry: './js/app.js', 
   output: {
-    path: './build-webpack', 
+    path: './build', 
     filename: 'bundle.js', 
   }, 
   module: {
-    loaders: [{ //these preprocess the code before bundling
-      test: /\.js$/,
-      exclude: /node_modules/, 
-      loader: 'babel-loader', 
-      query: {
-        presets: ['es2015']
+  loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015']
+        }//q
       }
-  }]
-  }
+    ]
+  }//m
 }; 
