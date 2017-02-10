@@ -36,7 +36,13 @@ https://app.pluralsight.com/player?course=javascript-module-fundamentals&author=
 - CommonJS (with System.js loader)  
 - ES6 modules  
 
-####Using Babel with SystemJS   
+####Using CommonJS with SystemJS Loader (no build step)  
+1. `npm install systemjs --save`   
+2. associate modules with require('relative path') and module.export = {} or exports.function = function  
+3. in index.html, `<script src="node_modules/systemjs/dist/system.js"></script>`  
+4. Configure systemjs in index.html: link to package, specify cjs and import the root module  
+
+####Using Babel with SystemJS (build step)  
 - install `babel-cli` and `babel-presets-es2015` as dev-deps  
 - run in BASH: `./node_modules/.bin/babel js --presets es2015 --out-dir build`  
 - install systemjs as a loader  
